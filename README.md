@@ -2,6 +2,7 @@
 
 ![Java 21](https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=java)
 ![Spring Boot 3.4.1](https://img.shields.io/badge/Spring_Boot-3.4.1-brightgreen?style=flat-square&logo=springboot)
+![Tests](https://img.shields.io/badge/Tests-Passing-success?style=flat-square&logo=githubactions)
 ![Security](https://img.shields.io/badge/Security-JWT-blue?style=flat-square)
 ![Status](https://img.shields.io/badge/Aiven-Ready-purple?style=flat-square)
 
