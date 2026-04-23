@@ -1,6 +1,6 @@
 # Auth-Core Service
 
-![Build Status](https://github.com/YOUR_GITHUB_USERNAME/auth-core/actions/workflows/maven.yml/badge.svg)
+![Build Status](https://github.com/ByteEntropyCom/auth-core/actions/workflows/maven.yml/badge.svg)
 ![Java 21](https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=java)
 ![Spring Boot 3.4.1](https://img.shields.io/badge/Spring_Boot-3.4.1-brightgreen?style=flat-square&logo=springboot)
 ![Security](https://img.shields.io/badge/Security-JWT-blue?style=flat-square)
