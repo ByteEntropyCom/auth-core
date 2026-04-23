@@ -83,11 +83,7 @@ The .gitignore is configured to ignore *.p12, *.jks, and *.pem to prevent accide
 max.block.ms=2000 ensures that Kafka connection attempts never hang the login process for more than 2 seconds.
 
 ## 📡 Kafka Events
-The service publishes login attempts to the auth-events topic.
-
-Success: Broadcasts username and timestamp.
-
-Failure: Gracefully caught in AuthService to prevent 500 Internal Server Error on the frontend.
+The service publishes login attempts to the auth-events topic. Success and Fail both.
 
 ---
 © 2026 ByteEntropy Authentication Core
