@@ -84,6 +84,3 @@ max.block.ms=2000 ensures that Kafka connection attempts never hang the login pr
 
 ## 📡 Kafka Events
 The service publishes login attempts to the auth-events topic. Success and Fail both.
-
----
-© 2026 ByteEntropy Authentication Core
