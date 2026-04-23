@@ -58,6 +58,23 @@ KAFKA_KEY_PASS=your_password \
 mvn spring-boot:run
 ```
 
+## Test Login (cURL)
+
+Use the following command to authenticate and receive a JWT:
+
+````bash
+curl -X POST http://localhost:8080/auth/login \
+     -H "Content-Type: application/json" \
+     -d '{
+           "identifier": "admin@byteentropy.com",
+           "secret": "password23" 
+         }'
+````
+
+## Verify the Token
+
+Copy the token string from the response and paste it into JWT.io to inspect the claims and validity. 
+
 ## 🔒 Security & Git
 ### Certificates: 
 The .gitignore is configured to ignore *.p12, *.jks, and *.pem to prevent accidental leaks.
