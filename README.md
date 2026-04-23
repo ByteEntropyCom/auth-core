@@ -1,5 +1,10 @@
 # Auth-Core Service
 
+![Java 21](https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=java)
+![Spring Boot 3.4.1](https://img.shields.io/badge/Spring_Boot-3.4.1-brightgreen?style=flat-square&logo=springboot)
+![Security](https://img.shields.io/badge/Security-JWT-blue?style=flat-square)
+![Status](https://img.shields.io/badge/Aiven-Ready-purple?style=flat-square)
+
 `auth-core` is a resilient Authentication Microservice built with **Spring Boot 3.4.1** and **Java 21**. It manages user identity, issues JWT tokens, and broadcasts login events via Kafka to the cloud.
 
 ## 🚀 Key Features
