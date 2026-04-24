@@ -29,11 +29,10 @@
 ## 📡 API Endpoints
 
 ```
-Method	| Endpoint	| Access	| Description
----
-POST	| /auth/login	| Public	| Authenticates user and returns a JWT
-GET	| /h2-console	| Public	| Database management interface
-ANY	| /**	| Authenticated	| All other routes require a Bearer Token
+Method,Endpoint,Access,Description
+POST,/auth/login,Public,Authenticates user and returns a JWT
+GET,/h2-console,Public,Database management interface (H2)
+ANY,/**,Authenticated,All other routes require a valid Bearer Token
 ```
 
 
