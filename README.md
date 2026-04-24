@@ -128,3 +128,13 @@ max.block.ms=2000 ensures that Kafka connection attempts never hang the login pr
 
 ## 📡 Kafka Events
 The service publishes login attempts to the auth-events topic. Success and Fail both.
+
+
+## ⚠️ Things to customize after forking
+1. Change the Secret Key: Never use the default secret key provided in the application.properties for a live app.
+
+2. Swap H2 for a Persistent DB: For production, change the spring.datasource properties to point to PostgreSQL or MySQL.
+
+3. Expand Identity: Add fields like firstName, lastName, or mfaEnabled to the Identity entity.
+
+4. Kafka Configuration: If you aren't using Kafka, you can remove the kafkaProvider logic in AuthService to simplify the code.
