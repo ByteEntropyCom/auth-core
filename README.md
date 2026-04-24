@@ -36,6 +36,32 @@
 | **ANY** | `/**` | Authenticated | All other routes require a valid Bearer Token |
 
 
+## Sample Request & Response
+
+### Login Request:
+
+```
+JSON
+POST /auth/login
+Content-Type: application/json
+
+{
+  "identifier": "admin@byteentropy.com",
+  "secret": "password123"
+}
+```
+
+### Login Response:
+
+```
+JSON
+{
+  "token": "eyJhbGciOiJIUzI1NiJ9...",
+  "type": "Bearer"
+}
+```
+
+
 
 ## ⚙️ Configuration Strategy
 
