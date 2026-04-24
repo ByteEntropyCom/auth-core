@@ -25,6 +25,14 @@
 * **Messaging**: Apache Kafka
 * **Lombok**: For boilerplate-free code
 
+
+## 📡 API Endpoints
+Method	Endpoint	Access	Description
+POST	/auth/login	Public	Authenticates user and returns a JWT
+GET	/h2-console	Public	Database management interface
+ANY	/**	Authenticated	All other routes require a Bearer Token
+
+
 ## ⚙️ Configuration Strategy
 
 The application uses a **fail-fast, run-anywhere** strategy. It defaults to a local setup to ensure the app starts even without a Kafka cluster.
